@@ -1,0 +1,22 @@
+/* .dimmed.dimmable>.ui.animating.dimmer, .dimmed.dimmable>.ui.visible.dimmer, .ui.active.dimmer {
+    margin: 233px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    opacity: 1;
+} */
+/* .ui.small.image, .ui.small.images .image, .ui.small.images img, .ui.small.images svg {
+    width: 150px;
+    height: auto;
+    font-size: .92857143rem;
+    float: left;
+    margin: 3px;
+} */
+.ui.page.modals.dimmer.transition.visible.active {
+    
+    margin-top: 300px;
+}
+.Imagess{
+    float:left;
+    margin:2px;
+}

@@ -1,0 +1,9 @@
+.ui.rail {
+    position: absolute;
+    top: 0;
+    display: inline-flex;
+    width: 300px;
+    margin-top: 14px;
+    float: left;
+    height: 100%;
+}
