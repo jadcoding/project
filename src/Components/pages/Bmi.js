@@ -2,6 +2,7 @@ import React from 'react';
 import './Bmi.css'
 import ModalExampleScrollingContent from './modal.js'
 import Healthy from './healthy.js'
+import Thin from './thin.js'
 class BMIBox extends React.Component {
     render() {
       let style = {
@@ -64,7 +65,7 @@ class BodyForm extends React.Component{
       let finalBmi = myWeight/(myHeight/100*myHeight/100);
       if (!(myWeight > 0 && myHeight > 0)) return "Please Fill in everything correctly"
       if (finalBmi < 18.5) {
-        return 
+        return <Thin/>
       }
       if (finalBmi > 18.5 && finalBmi < 25) {
         return <Healthy/>

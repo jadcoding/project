@@ -7,11 +7,11 @@ import Workouts from './pages/Workouts';
 import NotFound from './pages/NotFound.js';
 import MyWorkouts from './pages/MyWorkouts'
 import 'semantic-ui-css/semantic.min.css'; 
-// import './Main.scss';
+import './Main.scss';
 
 
 import ResponsiveContainer from './ResponsiveContainer'
-//<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
+
 
 const Container = ({title, addExercise, exercises }) => (
   <div className="container-main">

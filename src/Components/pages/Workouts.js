@@ -77,7 +77,7 @@ export default class StickyExampleOversized extends Component {
                       <Item key={i}>
                         <Item.Image size='medium' src={require('./how-to-lose-weight-fast.jpg')} />
                         <Item.Content>
-                          <Item.Header as='a'>Lose weight</Item.Header>
+                          <Item.Header href=''>Lose weight</Item.Header>
                           <Item.Meta></Item.Meta>
                         </Item.Content>
                         <Item.Image size='medium' src={require('./how-to-lose-weight-fast.jpg')} />

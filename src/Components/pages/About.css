@@ -10,7 +10,10 @@ position:relative;}
      background-color:none;
  } */
  
-img.ui.image.qw:hover{
+img.ui.image.qw:hover  {
     opacity:0.5;
+    
 }
 
+
+.ui.modal.transition.visible.active {width:100%;}
