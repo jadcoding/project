@@ -18,6 +18,11 @@ export const  ModalExampleScrollingContent = () => (
       <p>Run or walk for 20 mins, Back 3sets 10 reps, Triceps 3sets 10 reps, Abs 3 sets 10 to 15 reps </p>
       <h3>Day3:</h3>
       <p>Run or walk for 20 mins, Shoulders 3 sets 10 reps, Legs 3 stes 10 reps, Abs 3 sets 10 to 15 reps</p>
+      <Header>Nutrition:</Header>
+      <h4>Healthy carbs</h4>
+      <p>Whole wheat bread, Oatmeal, Whole wheat pasta,Brown rice, Potatoes</p>
+      <h5>Healthy Protein</h5>
+      <p>Lean cuts of beef, Fish, Eggs (but don't eat too many yolks),Fat free cottage cheese, Perhaps a little protein powder,Skim milk, Fat free yogurt, Turkey, Chicken, Fat free peanut butter</p>
         <Image className="Imagess" size='small' src='/images/legs/653_1.jpg'/>
         <Image className="Imagess" size='small' src='/images/legs/653_2.jpg'/>
         <Image className="Imagess" size='small' src='/images/chest/360_1.jpg'/>

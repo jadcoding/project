@@ -17,7 +17,7 @@ import Saturday from'./days/saturday.js'
 import Sunday from'./days/sunday.js'
 import Login from'./pages/login.js'
 import Apply from'./pages/signup.js'
-
+import CardExampleCard from './pages/contact.js'
 
 import ResponsiveContainer from './ResponsiveContainer'
 
@@ -34,6 +34,7 @@ const Container = ({title, addExercise, exercises }) => (
         <Route path="/myworkouts" component={ MyWorkouts } />
         <Route path="/login" component={ Login } />
         <Route path="/signup" component={ Apply } />
+        <Route path="/contact" component={CardExampleCard} />
         <Route path="/monday" render={ () => <Monday exercises={exercises}/> } />
         <Route path="/tuesday" render={ () => <Tuesday exercises={exercises}/> } />
         <Route path="/wednesday" render={ () => <Wednesday exercises={exercises}/> } />

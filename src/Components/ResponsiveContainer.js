@@ -53,6 +53,9 @@ class DesktopContainer extends Component {
                 <Menu.Item as='span'>
                     <Link to='/myworkouts'>MyWorkouts</Link>
                 </Menu.Item>
+                <Menu.Item as='span'>
+                    <Link to='/contact'>Our Experts</Link>
+                </Menu.Item>
                 {/* <Menu.Item as='span'>
                     <Link to='/Workouts'>Workouts</Link>
                 </Menu.Item> */}
@@ -111,6 +114,9 @@ class MobileContainer extends Component {
             </Menu.Item>
             <Menu.Item as='span'>
             <Link to='/myworkouts'>MyWorkouts</Link>
+            </Menu.Item>
+            <Menu.Item as='span'>
+            <Link to='/contact'>Our Experts</Link>
             </Menu.Item>
             {/* <Menu.Item as='span'>
             <Link to='/Workout'>Workouts</Link>
