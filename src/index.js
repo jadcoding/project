@@ -6,7 +6,7 @@ const server = http.createServer(express);
 let currentApp = express;
 
 
-server.listen(process.env.PORT || 3000, (error) => {
+server.listen(process.env.PORT || 4010, (error) => {
   if (error) {
     console.log(error)
   }

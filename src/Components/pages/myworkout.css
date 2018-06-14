@@ -2,3 +2,9 @@
     float:left;
     
 }
+.ui.table thead th{
+    display: block;
+}
+table.ui.inverted.table {
+    margin: 0px;
+}

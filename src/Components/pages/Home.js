@@ -3,7 +3,7 @@ import React from 'react';
 import BMIBox from './Bmi.js'
 import './Home.css';
 import './Bmi.css'
-
+// import '../Main.scss';
 import {
 //   Button,
    Container,
@@ -22,19 +22,17 @@ import {
 
 
 const HomepageHeading = ({ mobile }) => (
-  <Container text>
+  <Container  text>
   
   
-      
-      <div>
         <div>
         
        
 
-          <div>
+          
            <img alt='' className="w" src={require('./maxresdefault.jpg')}  />
-          </div>
-        </div>
+          
+        
         {/* <section>          
           <img className="imag" src={require('./sample2.png')} /> 
           <ul>

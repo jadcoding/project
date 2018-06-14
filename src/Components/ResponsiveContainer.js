@@ -50,9 +50,9 @@ class DesktopContainer extends Component {
                 <Menu.Item as='span'>
                     <Link to='/Exercices'>Exercices</Link>
                 </Menu.Item>
-                {/* <Menu.Item as='span'>
-                    <Link to='/Chat'>Nutrition</Link>
-                </Menu.Item> */}
+                <Menu.Item as='span'>
+                    <Link to='/myworkouts'>MyWorkouts</Link>
+                </Menu.Item>
                 {/* <Menu.Item as='span'>
                     <Link to='/Workouts'>Workouts</Link>
                 </Menu.Item> */}
@@ -64,9 +64,10 @@ class DesktopContainer extends Component {
                   {/* <Button as='span' inverted={!fixed}>
                     <Link to='/home'>Sign In</Link>
                   </Button> */}
-                  <Button as='span' inverted={!fixed} primary={fixed} style={{ marginLeft: '0.5em' }}>
-                    <Link to='/myworkouts'>My Workout</Link>
-                  </Button>
+                 
+                  <Button as='span' inverted style={{ marginLeft: '0.5em' }}><Link to="/signup">Sign Up</Link></Button>
+                    <Button as='span' inverted style={{ marginLeft: '0.5em' }}><Link to="/login">Sign In</Link></Button>
+                  
                 </Menu.Item>
               </Container>
             </Menu>
@@ -108,9 +109,9 @@ class MobileContainer extends Component {
             <Menu.Item as='span'>
             <Link to='/Exercices'>Exercices</Link>
             </Menu.Item>
-            {/* <Menu.Item as='span'>
-            <Link to='/Chat'>Nutrition</Link>
-            </Menu.Item> */}
+            <Menu.Item as='span'>
+            <Link to='/myworkouts'>MyWorkouts</Link>
+            </Menu.Item>
             {/* <Menu.Item as='span'>
             <Link to='/Workout'>Workouts</Link>
             </Menu.Item> */}
@@ -129,8 +130,8 @@ class MobileContainer extends Component {
                     <Icon name='sidebar' />
                   </Menu.Item>
                   <Menu.Item position='right'>
-                    <Button as='span' inverted><Link to='/myworkouts'>My Workout</Link></Button>
-                    {/* <Button as='span' inverted style={{ marginLeft: '0.5em' }}>Sign Up</Button> */}
+                  <Button as='span' inverted style={{ marginLeft: '0.5em' }}><Link to="/signup">Sign Up</Link></Button>
+                  <Button as='span' inverted style={{ marginLeft: '0.5em' }}><Link to="/login">Sign In</Link></Button>
                   </Menu.Item>
                 </Menu>
               </Container>
