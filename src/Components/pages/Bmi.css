@@ -1,16 +1,17 @@
 .bmi-box{
-    margin:auto;
-    border-radius: 3px;
-    border: 1px solid #ddd;
-    width: 300px;
-    display: table;
-    padding: 25px;
-    background-color: #f9f9f9;
-    position: relative;
-    color: black;
-    margin-top: 287px
-  }
- 
+  margin:auto;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  width: 300px;
+  display: table;
+  padding: 25px;
+  background-color: #f9f9f9;
+  position: relative;
+  color: black;
+  margin-top: 272px
+}
+
+
   header.text-center{
     text-align: center;
   }
